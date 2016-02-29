@@ -24,8 +24,10 @@ int main(int argc, char** argv)
 		printf("Using 127.0.0.1\n");
 	}
 	
-	
-	
+
+	//address = IPAddress::Parse("10.62.12.251");
+	address = IPAddress::Any;
+		
 	IPEndPoint^ endPoint = gcnew IPEndPoint(address, 8888);
 	Socket^ Ssocket = gcnew Socket(endPoint->AddressFamily, SocketType::Stream, ProtocolType::Tcp);
 	Ssocket->Bind(endPoint);

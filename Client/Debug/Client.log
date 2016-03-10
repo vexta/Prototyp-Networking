@@ -1,6 +1,2 @@
-﻿  stdafx.cpp
-  Client.cpp
-Client.cpp(1): warning C4627: '#include <string.h>': skipped when looking for precompiled header use
-  Client.cpp(1): note: Add directive to 'stdafx.h' or rebuild precompiled header
-  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
-  Client.vcxproj -> C:\Users\Lukas\Documents\GitHub\Prototyp-Networking\Debug\Client.exe
+﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\Lukas\Documents\GitHub\Prototyp-Networking\Debug\Client.exe : fatal error LNK1120: 1 unresolved externals

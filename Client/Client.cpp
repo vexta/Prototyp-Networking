@@ -1,23 +1,43 @@
-#include <string.h>
+//#include <string.h>
 #include "stdafx.h"
-#using   "system.dll"
-
-#include <iostream>
-//#include <thread>
-//#include <pthread>
-
-
-//Thread^ t = gcnew Thread(
-//	gcnew ThreadStart()
-//	
-//	)
-
-
-//using namespace System;
-//using namespace System::Text;
-//using namespace System::Net;
-//using namespace System::Net::Sockets;
-//using namespace System::Threading;
+//#using   "system.dll"
+//
+//#include <iostream>
+////#include <thread>
+////#include <pthread>
+//
+//
+////Thread^ t = gcnew Thread(
+////	gcnew ThreadStart()
+////	
+////	)
+//
+//
+////using namespace system;
+////using namespace system::text;
+////using namespace system::net;
+////using namespace system::net::sockets;
+////using namespace system::threading;
+////
+////void listen() {
+////	while (1 == 1) {
+////		printf("listen\n");
+////		thread::sleep(100);
+////	}
+////}
+////
+////
+////int main() {
+////	thread^ t = gcnew thread(gcnew threadstart(listen));
+////	t->start();
+////
+////	while (1 == 1) {
+////		printf("maine\n");
+////		t->sleep(100);
+////	}
+////	t->join();
+////}
+//
 //
 //void Listen(int argc, char** argv) {
 //	//array<unsigned char>^ v = { 'a','a', 0 };
@@ -69,7 +89,3 @@
 //	//t1.join();
 //	return 0;
 //}
-
-int main() {
-	return EXIT_SUCCESS;
-}

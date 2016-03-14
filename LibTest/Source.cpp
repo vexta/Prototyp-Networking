@@ -1,7 +1,13 @@
-#include "..\Server\ServerHeader.h"
+#include "..\Komunikacny_modul\NetLib.h"
 
 int main() 
 {
-	Ba();
-	getchar();
+	NetLib com;
+	while (true) {
+		com.Send();
+		printf("%d\n", com.Get());
+		getchar();
+	}
+
+	return 0;
 }

@@ -1,55 +1,54 @@
-// todo nacitanie ci som server alebo client zo suboru spolu s IP adresov ciela
-
-
+//// todo nacitanie ci som server alebo client zo suboru spolu s IP adresov ciela
+////spravit aby sme skopirovali potrebnee dll z .net frameowku alebo nieco
+//
 #include "stdafx.h"
-#using "system.dll"
-
-using namespace System;
-using namespace System::Text;
-using namespace System::Net;
-using namespace System::Net::Sockets;
-
-//void Ba()
+//#using "system.dll"
+//
+//using namespace System;
+//using namespace System::Text;
+//using namespace System::Net;
+//using namespace System::Net::Sockets;
+//
+//void ba()
 //{
 //	printf("using 127.0.0.1\n");
 //}
-
+//
 //int main(int argc, char** argv)
 //{
-//	//array<unsigned char>^ v = {0,0,0,0,0,0,0,0,0};
+//	array<unsigned char>^ v = {0,0,0,0,0,0,0,0,0};
 //	array<unsigned char>^ v = gcnew array<unsigned char>(1000000);
 //	
-//	ipaddress^ address;
+//	IPAddress^ address;
 //	
 //	if (argc == 2) {
-//		string^ ip = gcnew string(argv[1]);
-//		address = ipaddress::parse(ip);
+//		String^ ip = gcnew String(argv[1]);
+//		address = IPAddress::Parse(ip);
 //		printf("%s\n", argv[1]);
 //	}
 //	else {
-//		address = ipaddress::parse("127.0.0.1");
+//		address = IPAddress::Parse("127.0.0.1");
 //		printf("using 127.0.0.1\n");
 //	}
 //
-//	//address = ipaddress::parse("10.62.12.251");
-//	address = ipaddress::any;
+//	address = IPAddress::Parse(System::Configuration::ConfigurationSettings::AppSettings["IPAddr"]);
+//	address = IPAddress::Any;
 //		
-//	ipendpoint^ endpoint = gcnew ipendpoint(address, 8888);
-//	socket^ ssocket = gcnew socket(endpoint->addressfamily, sockettype::stream, protocoltype::tcp);
-//	ssocket->bind(endpoint);
-//	ssocket->listen(5);
-//	socket^ csocket = ssocket->accept();
-//	//while (!socket->)
-//	//	;
+//	IPEndPoint^ endpoint = gcnew IPEndPoint(address, 8888);
+//	Socket^ ssocket = gcnew Socket(endpoint->AddressFamily, SocketType::Stream, ProtocolType::Tcp);
+//	ssocket->Bind(endpoint);
+//	ssocket->Listen(5);
+//	Socket^ csocket = ssocket->Accept();
+//
 //
 //	while (1 )
 //	{
-//		//if (socket->connected) {
-//			int size=csocket->receive(v);
+//		if (ssocket->Connected) {
+//			int size=csocket->Receive(v);
 //			printf("prijal si takeeeto data %d\n", size);
-//			//char c;
-//			//c = getchar();
-//		//}
+//			char c;
+//			c = getchar();
+//		}
 //	}
 //    return 0;
 //}

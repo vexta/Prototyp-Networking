@@ -1,2 +1,0 @@
-﻿  stdafx.cpp
-stdafx.cpp : fatal error C1107: could not find assembly 'mscorlib.dll': please specify the assembly search path using /AI or by setting the LIBPATH environment variable
